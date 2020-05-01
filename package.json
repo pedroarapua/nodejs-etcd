@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   "dependencies": {
     "config": "^3.0.0",
     "lodash": "^4.17.11",
-    "node-etcd": "^7.0.0"
-  }
+    "node-etcd": "^7.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
