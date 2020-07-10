@@ -18,7 +18,7 @@
   "homepage": "https://github.com/pedroarapua/nodejs-etcd#readme",
   "dependencies": {
     "config": "^3.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.16",
     "node-etcd": "^7.0.0"
   }
 }
